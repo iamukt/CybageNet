@@ -1,0 +1,12 @@
+package beans;
+
+public class Singleton {
+	private Singleton()
+	{
+		
+	}
+	public static Singleton getSingletonInst()
+	{
+		return new Singleton();
+	}
+}

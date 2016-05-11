@@ -1,0 +1,8 @@
+package beans;
+
+public class FactoryBean {
+	public static getA()
+	{
+		
+	}
+}

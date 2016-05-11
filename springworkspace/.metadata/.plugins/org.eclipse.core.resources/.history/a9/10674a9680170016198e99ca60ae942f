@@ -1,0 +1,18 @@
+package beans;
+
+public class ShapeFactory {
+	private Circle cc;
+	private Triangle tt;
+	public ShapeFactory() {
+		
+	}
+	public Circle getCircleInst()
+	{
+		return new Circle();
+	}
+	public Triangle getTriangleInst()
+	{
+		return new Triangle();
+	}
+}
+

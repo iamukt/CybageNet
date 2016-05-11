@@ -1,0 +1,8 @@
+package beans;
+
+public class Triangle {
+	public Triangle()
+	{
+		System.out.println("Triangle Instantiated");
+	}
+}

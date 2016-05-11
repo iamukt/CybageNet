@@ -1,0 +1,10 @@
+package beans;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestBean {
+	ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+	Circle cc = (Circle) ctx.getBean("circle");
+	Triangle tt = (Triangle) ctx.getBean("triangle");
+}
